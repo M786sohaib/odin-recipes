@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 255, 255);
+}
+.navbar {
+  margin: 5px;
+}
+.navbar a {
+  margin: 5px;
+}
+.description,
+.ingredients,
+.directions {
+  margin: 20px;
+}
+img {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto auto 500px;
+}
+h1 {
+  margin: 40px auto 80px;
+  border: none;
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+}
+h1 a {
+  text-decoration: none;
+}
+
+.recipe-list li:hover {
+  background-color: #bcf6fa;
+}
+
+.recipe-list li {
+  width: 400px;
+  height: 100px; /* Ensure the height is set */
+  border: 2px dotted black;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Horizontally center the text */
+  align-items: center; /* Vertically center the text */
+  margin: 0 auto 8px;
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+}
